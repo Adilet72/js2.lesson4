@@ -11,6 +11,11 @@ body {
     text-decoration: none;
 }
 
+a{
+    background-color: black;
+    color: #FFFFFF;
+}
+
 .weather{
     background-color: green;
     height: 100vh;
@@ -22,7 +27,7 @@ body {
 .weather-content{
     background-color: rgba(255, 255, 255, 0.207);
     width: 426px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100vh;
     margin-left: auto;
     padding-top: 50px;
@@ -93,8 +98,5 @@ body {
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
-        p{
-            
-        }
     }
 }
